@@ -24,7 +24,7 @@ extern "C" {
 #define ODID_ID_SIZE 20
 #define ODID_STR_SIZE 23
 
-#define ODID_PROTOCOL_VERSION 0
+#define ODID_PROTOCOL_VERSION 1 // Corresponds to ASTM F3411 Specification for Remote ID and Tracking v1.1
 
 // To save memory on implementations that do not need support for 16 pages of
 // authentication data, define ODID_AUTH_MAX_PAGES to the desired value before

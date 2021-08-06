@@ -67,7 +67,7 @@ void drone_export_gps_data(ODID_UAS_Data *UAS_Data, char *buf, size_t buf_size)
 		return; \
 }
 
-	mprintf("{\n\t\"Version\": \"0.8\",\n\t\"Response\": {\n");
+	mprintf("{\n\t\"Version\": \"1.1\",\n\t\"Response\": {\n");
 
 	mprintf("\t\t\"BasicID\": {\n");
 	mprintf("\t\t\t\"UAType\": %d,\n", UAS_Data->BasicID.UAType);
