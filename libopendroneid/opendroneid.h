@@ -244,7 +244,7 @@ typedef struct ODID_Location_data {
     ODID_Vertical_accuracy_t BaroAccuracy;
     ODID_Speed_accuracy_t SpeedAccuracy;
     ODID_Timestamp_accuracy_t TSAccuracy;
-    float TimeStamp;          // seconds after the full hour
+    float TimeStamp;          // seconds after the full hour relative to UTC. Invalid, No Value, or Unknown: 0xFFFF
 } ODID_Location_data;
 
 /*
