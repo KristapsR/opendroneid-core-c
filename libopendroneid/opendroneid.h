@@ -41,7 +41,7 @@ extern "C" {
 #define MAX_AUTH_LENGTH (ODID_AUTH_PAGE_ZERO_DATA_SIZE + \
                          ODID_AUTH_PAGE_NONZERO_DATA_SIZE * (ODID_AUTH_MAX_PAGES - 1))
 
-#define ODID_PACK_MAX_MESSAGES 10
+#define ODID_PACK_MAX_MESSAGES 9
 
 #define ODID_SUCCESS    0
 #define ODID_FAIL       1
